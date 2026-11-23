@@ -1,0 +1,21 @@
+
+# Python environment
+rainfall_env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large original dataset
+data/*.nc
+
+# Temporary files
+*.log
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
