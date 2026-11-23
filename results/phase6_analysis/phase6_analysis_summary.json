@@ -1,0 +1,57 @@
+{
+    "test_observations": 235,
+    "CNN_BiLSTM_metrics": {
+        "MAE_mm": 10.44006554160681,
+        "RMSE_mm": 18.534309004207117,
+        "R2": 0.5432963517842834
+    },
+    "Persistence_metrics": {
+        "MAE_mm": 12.781893553075745,
+        "RMSE_mm": 23.894274962908696,
+        "R2": 0.24095172740956983
+    },
+    "MAE_improvement_percent": 18.32144824039326,
+    "prediction_distribution": {
+        "Actual_mean_mm": 22.471681885865532,
+        "Predicted_mean_mm": 21.94524633910638,
+        "Actual_std_mm": 27.425790796458045,
+        "Predicted_std_mm": 19.429735323522078,
+        "Actual_median_mm": 10.265271,
+        "Predicted_median_mm": 17.914175,
+        "Actual_max_mm": 205.22469,
+        "Predicted_max_mm": 70.88488,
+        "Correlation": 0.7379252883242068
+    },
+    "category_analysis": [
+        {
+            "Rainfall_Category": "0-10 mm",
+            "Count": 117,
+            "MAE_mm": 4.978045233141879,
+            "RMSE_mm": 9.376303427652779
+        },
+        {
+            "Rainfall_Category": "10-25 mm",
+            "Count": 33,
+            "MAE_mm": 12.190206848484848,
+            "RMSE_mm": 14.696165286402339
+        },
+        {
+            "Rainfall_Category": "25-50 mm",
+            "Count": 46,
+            "MAE_mm": 10.207256195652175,
+            "RMSE_mm": 13.664416740777943
+        },
+        {
+            "Rainfall_Category": "50-100 mm",
+            "Count": 37,
+            "MAE_mm": 20.915561945945946,
+            "RMSE_mm": 26.419618176644782
+        },
+        {
+            "Rainfall_Category": "100+ mm",
+            "Count": 2,
+            "MAE_mm": 112.6488535,
+            "RMSE_mm": 120.20653317015892
+        }
+    ]
+}
